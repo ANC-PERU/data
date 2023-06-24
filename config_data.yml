@@ -59,6 +59,11 @@ inputs:
     git_data_dir: data
   - class: InputSdmxMeta
     meta_suffix: __GLOBAL
+    # Input Data from UN API
+  - class: InputSdmxMl_UnitedNationsApi 
+    reference_area: 231 
+    dimension_query: 
+      REPORTING_TYPE: N 
 
 # Translations
 # ------------
